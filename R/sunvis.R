@@ -5,11 +5,11 @@
 #' @import htmlwidgets
 #'
 #' @export
-sunvis <- function(message, width = NULL, height = NULL, elementId = NULL) {
+sunvis <- function(csvdata, width = NULL, height = NULL, elementId = NULL) {
 
   # forward options using x
   x = list(
-    message = message
+    csvdata = csvdata
   )
 
   # create widget
